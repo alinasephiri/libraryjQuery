@@ -1,0 +1,115 @@
+/*
+ * library.css
+ * Alinase Phiri
+ */
+
+/* Set the background color to light blue */
+body {
+    background-color: #092b3d;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #a78661;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    position: relative;
+  }
+  
+  /* Style the mini tag */
+  header::after {
+    content: "Made by Alinase Phiri";
+    font-size: 14px;
+    position: absolute;
+    right: 20px;
+    bottom: 5px;
+  }
+  
+  /* Style the container */
+  #container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  /* Style the navigation */
+  nav {
+    background-color: #5f899f;
+    color: white;
+    width: 30%;
+    padding: 20px;
+  }
+
+  /* Style the navigation when clicked */
+  nav li.active {
+    font-weight: bold;
+    color: rgb(146, 93, 8);
+}
+  
+  /* Style the list items in the navigation */
+  nav li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  /* Style the selected book in the navigation */
+  nav li.selected {
+    font-weight: bold;
+  }
+  
+  /* Style the information section */
+  #information {
+    width: 70%;
+    padding: 20px;
+  }
+  
+  /* Style the cover image */
+  #coverImage {
+    display: none;
+    margin: 20px auto;
+    border: 5px solid #A68B6D;
+    box-shadow: 5px 5px #A68B6D;
+  }
+  
+  /* Style the main section */
+  main {
+    background-color: #387291;
+    color: white;
+    padding: 20px;
+  }
+  
+  /* Style the labels in the main section */
+  label {
+    display: inline-block;
+    width: 150px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  /* Style the input fields in the main section */
+  input {
+    width: 50%;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the edit and add buttons */
+  #editbutton, #addbutton, #deletebutton {
+    background-color: #A68B6D;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  /* Style the edit and add buttons on hover */
+  #editbutton:hover, #addbutton:hover, #deletebutton:hover {
+    background-color: #876E54;
+  }

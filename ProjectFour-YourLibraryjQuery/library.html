@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+   <!-- 
+        library.html
+        Alinase Phiri
+    -->
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link href="library.css" type="text/css" rel="stylesheet">
+    <script src="library.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Personal Library</title>
+</head>
+<body>
+    
+    <header><h1> <!--HEADER: PERSONAL LIBRARY -->
+      Personal Library
+    </h1></header>
+
+    <div id="container">
+      <nav>
+        <!-- Book titles will go here -->
+      </nav>
+
+      
+
+      <!--Cover Image and information displayed here-->
+      <div id="information">
+        <img id="coverImage" src="" alt="Cover Image" width="60%">
+      </div>
+    </div>
+
+    <!--Add and edit buttons -->
+    <button type="button" id="editbutton">Edit</button>
+    <button type="button" id="addbutton">Add</button>
+    <button type="button" id="deletebutton">Delete</button>
+
+
+    <main>
+       <p> <!--Title-->
+         <label for="title">Title:</label>
+         <input type="text" id="title" name="title" value="Title" readonly>
+       </p>
+       <p> <!--Author-->
+         <label for="author">Author:</label>
+         <input type="text" id="author" name="author" value="Author" readonly>
+       </p>
+       <p> <!--Copyright year-->
+         <label for="copyright">Copyright Year:</label>
+         <input type="text" class="digits" id="copyright" name="copyright" value="0000" readonly>
+       </p>
+       <p> <!--Pages-->
+         <label for="pages">Number of Pages:</label>
+         <input type="text" class="digits" id="pages" name="pages" value="000" readonly>
+       </p>
+       
+    </main>
+
+</body>
+</html>
+
+
